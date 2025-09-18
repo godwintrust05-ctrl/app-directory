@@ -17,14 +17,26 @@
       text-align: center;
     }
     header h1 {
-      margin: 0;
+      margin: 0 0 15px 0;
       color: #f1c40f;
     }
-    nav a {
-      margin: 0 15px;
-      color: #f1c40f;
-      text-decoration: none;
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      background: #f1c40f;
+      color: #111 !important;
       font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #d4ac0d;
     }
     section {
       padding: 40px 20px;
@@ -59,10 +71,10 @@
 <body>
   <header>
     <h1>TrustToken 🚀</h1>
-    <nav>
-      <a href="https://t.me/Trusttoken_1" target="_blank">Telegram</a>
-      <a href="https://x.com/TrustToken_1?t=8N6crIERp2coxbULUbAqcA&s=09" target="_blank">X (Twitter)</a>
-    </nav>
+    <div class="btn-container">
+      <a class="btn" href="https://t.me/Trust_Token0" target="_blank">Join Telegram</a>
+      <a class="btn" href="https://x.com/TrustToken_1?t=8N6crIERp2coxbULUbAqcA&s=09" target="_blank">Follow on X</a>
+    </div>
   </header>
 
   <section>
@@ -90,7 +102,7 @@
 
   <footer>
     <p>Join our community:</p>
-    <a href="https://t.me/Trusttoken_1" target="_blank">Telegram</a> |
+    <a href="https://t.me/Trust_Token0" target="_blank">Telegram</a> |
     <a href="https://x.com/TrustToken_1?t=8N6crIERp2coxbULUbAqcA&s=09" target="_blank">X (Twitter)</a>
   </footer>
 </body>
